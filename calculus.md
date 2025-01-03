@@ -42,7 +42,7 @@ $$
 Если:
 
 1. Для функциональной последовательности $(1)$ существует предельная функция $\exists f(x) = \lim_{n \to \infty} f_n(x)$,
-2. $\forall \varepsilon > 0 \,\, \exists N(\varepsilon), \, n > N$ имеет место неравенство $|f_n(x) - f(x)| < \varepsilon \, \forall x \in X$,
+2. $\forall \varepsilon > 0 \,\, \exists N(\varepsilon) > 0; \,\, n > N$ имеет место неравенство $|f_n(x) - f(x)| < \varepsilon \,\, \forall x \in X$,
 
 то мы скажем, что последовательность *равномерно сходится* к $f(x)$ на множестве $X$ ($f_n(x) \rightrightarrows f(x)$).
 
@@ -119,7 +119,7 @@ $$
 Ряд $(3)$ *равномерно сходится* на множестве $X$, если:
 
 1. Последовательность частичных сумм имеет предельную функцию $f(x)$ на $X$: $\exists f(x) = \lim_{n \to \infty} f_n(x)$,
-2. $\forall \varepsilon > 0 \, \exists N(\varepsilon), \, n > N: |f_n(x) - f(x)| < \varepsilon \iff |\varphi_n(x)| < \varepsilon \, \forall x \in X$.
+2. $\forall \varepsilon > 0 \quad \exists N(\varepsilon) > 0; \quad n > N: |f_n(x) - f(x)| < \varepsilon \iff |\varphi_n(x)| < \varepsilon \quad \forall x \in X$.
 
 
 

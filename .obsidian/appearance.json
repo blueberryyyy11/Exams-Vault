@@ -2,5 +2,8 @@
   "cssTheme": "Shimmering Focus",
   "theme": "obsidian",
   "baseFontSize": 17,
-  "nativeMenus": false
+  "nativeMenus": false,
+  "enabledCssSnippets": [
+    "pdf-background"
+  ]
 }

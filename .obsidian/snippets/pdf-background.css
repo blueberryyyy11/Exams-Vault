@@ -1,0 +1,36 @@
+@media print {
+    /* Убираем отступы страницы */
+    @page {
+        margin: 0;
+    }
+
+    /* Убираем отступы содержимого и добавляем отступы слева и справа */
+    body {
+        margin: 0 !important;
+        padding: 0 !important;
+        background-color: #282828;
+        -webkit-print-color-adjust: exact;
+    }
+
+    .markdown-preview-view {
+        margin: 0 !important;
+        padding: 0 !important;
+        background-color: #282828 !important;
+        color: #ffffff !important; /* Общий цвет текста */
+        padding-left: 20px !important; /* Отступ слева */
+        padding-right: 20px !important; /* Отступ справа */
+    }
+
+    /* Заголовки */
+    .markdown-preview-view h1,
+    .markdown-preview-view h2,
+    .markdown-preview-view h3,
+    .markdown-preview-view h4,
+    .markdown-preview-view h5,
+    .markdown-preview-view h6 {
+        background-color: hsl(230, 15%, 18%) !important; /* Фон заголовков */
+        color: #8c96d9 !important;                      /* Цвет текста */
+        padding: 5px;                                   /* Внутренний отступ */
+        border-radius: 5px;                             /* Скруглённые углы */
+    }
+}
