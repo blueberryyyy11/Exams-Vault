@@ -668,7 +668,7 @@ $$
 1. $\exists \lim\limits_{y \to y_0} f(x, y) = \varphi(x)$, $\forall x \in X$.  
 2. $\forall \varepsilon > 0\; \exists \delta(\varepsilon) > 0$, не зависящее от $x$, что как только $\lvert y - y_0\rvert < \delta \implies \lvert f(x, y) - \varphi(x)\rvert < \varepsilon$ $\forall x \in X$.
 
-Тогда $f(x, y) \Longrightarrow \varphi(x)$ $\forall x \in X$ (**равномерно сходится** относительно $x$) при $y \to y_0$.
+Тогда $f(x, y) \rightrightarrows \varphi(x)$ $\forall x \in X$ (**равномерно сходится** относительно $x$) при $y \to y_0$.
 
 ---
 
@@ -779,7 +779,7 @@ $$
 
 Если
 1) $f(x,y) \,\,\forall y\in Y$ непрерывна по $x\in [a,b]$
-2) $f(x,y)\xrightarrow{равномерно} \varphi (x)$ при $y \rightarrow y_0$
+2) $f(x,y)\rightrightarrows \varphi (x)$ при $y \rightarrow y_0$
 
 тогда
 $$\lim\limits_{y \to y_0} I(y) = \lim\limits_{y \to y_0} \int_a^b f(x, y) dx = \int_a^b \varphi (x) dx = \int_a^b \lim\limits_{y \to y_0} f(x,y) dx$$
@@ -812,7 +812,7 @@ $y'=y_0$ ($\forall y_0 \in [c,d]$), $y''=y$ и подставим
 
 Получили $$\forall \varepsilon > 0 \quad \exists \delta(\varepsilon) > 0 \quad |y-y_0| < \delta \quad \Rightarrow$$$$\Rightarrow |\int_a^bf(x,y)dx - \int_a^bf(x,y_0)dx| < \varepsilon$$
 
-Это означает, что $f(x,y) \xrightarrow{равномерно}f(x,y_0)$
+Это означает, что $f(x,y) \rightrightarrows f(x,y_0)$
 
 Сделаем предельный переход согласно теореме
 $$\lim\limits_{y\rightarrow y_0}I(y) = \lim\limits_{y\rightarrow y_0} \int_a^b f(x,y)dx = \int_a^b \lim\limits_{y \rightarrow y_0} f(x,y)dx = \int_a^b f(x,y_0)dx = I(y_0) \Rightarrow$$
