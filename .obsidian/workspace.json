@@ -1,0 +1,281 @@
+{
+  "main": {
+    "id": "36859f161c76caa1",
+    "type": "split",
+    "children": [
+      {
+        "id": "8e61ac52483ac050",
+        "type": "tabs",
+        "dimension": 52.571860816944024,
+        "children": [
+          {
+            "id": "bc959d5bcbe27c40",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "calculus.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "calculus"
+            }
+          },
+          {
+            "id": "c7f3a28c726e1bc9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "calculus.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "calculus"
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "d6232f56ed28d61e",
+        "type": "tabs",
+        "dimension": 47.428139183055976,
+        "children": [
+          {
+            "id": "ec2f734a5430d9a6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "calculus.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "calculus"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "771a9d9bd60affc7",
+    "type": "split",
+    "children": [
+      {
+        "id": "eccc39e811d4acc0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "edcb7d4779c504a7",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "4dada5e0b8b98088",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "181cb76b174fb62f",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "f9fe31c38aab8d01",
+    "type": "split",
+    "children": [
+      {
+        "id": "8139f54112c11f53",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "543d56a3ca916fab",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Untitled.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Untitled"
+            }
+          },
+          {
+            "id": "51b757e9036c4284",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Untitled.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Untitled"
+            }
+          },
+          {
+            "id": "f4c464100dd63745",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "fa4750df9a93f0f2",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Untitled.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Untitled"
+            }
+          },
+          {
+            "id": "bdd20dea238f6d9f",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "SpacedRepIcon",
+              "title": "Notes Review Queue"
+            }
+          },
+          {
+            "id": "6e350fbe9cec15b6",
+            "type": "leaf",
+            "state": {
+              "type": "mermaid-toolbar-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "9d5847d7f3811cef",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "SpacedRepIcon",
+              "title": "Notes Review Queue"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "markdown-importer:Open format converter": false,
+      "obsidian-spaced-repetition:Review flashcards": false,
+      "math-indicator-changer:Change math indicator": false,
+      "mermaid-tools:Open Mermaid Toolbar": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
+    }
+  },
+  "active": "c7f3a28c726e1bc9",
+  "lastOpenFiles": [
+    "test.md",
+    "calculus.md",
+    "[.md",
+    "1..md",
+    "Definitions library.md",
+    "Exams.md",
+    "flashcards.md",
+    "Pasted image 20241230150846.png",
+    "Cpp quiz.md",
+    "Excalidraw/Drawing 2025-01-03 01.26.29.excalidraw.md",
+    "Excalidraw/Drawing 2025-01-03 01.14.05.excalidraw.md",
+    "Excalidraw/Drawing 2025-01-03 00.44.04.excalidraw.md",
+    "Excalidraw/Drawing 2025-01-03 01.06.35.excalidraw.md",
+    "2..md",
+    "13..md",
+    "12..md",
+    "Excalidraw/Drawing 2025-01-03 10.08.13.excalidraw.md",
+    "11..md",
+    "Excalidraw/Drawing 2025-01-03 12.09.12.excalidraw.md",
+    "Excalidraw/Drawing 2025-01-03 11.12.44.excalidraw.md",
+    "Pasted Image 20250103111328_418.png",
+    "14.md",
+    "Pasted Image 20250103100855_863.png",
+    "Excalidraw/Drawing 2025-01-03 01.19.48.excalidraw.md",
+    "Excalidraw/Drawing 2025-01-03 01.46.06.excalidraw.md",
+    "Pasted Image 20250103014612_238.png",
+    "Pasted Image 20250103012021_051.png",
+    "Pasted image 20250102225256.png",
+    "Pasted Image 20250103005802_333.png",
+    "Pasted image 20250102222300.png",
+    "Pasted image 20250102204917.png",
+    "Untitled 1.md",
+    "Excalidraw",
+    "10. Iterators.md",
+    "9. Doubly linked list.md",
+    "8. Singly Linked List.md",
+    "Obsidian/Pasted image 20241228165231.png",
+    "Untitled.canvas",
+    "Obsidian/Untitled.canvas",
+    "Obsidian"
+  ]
+}

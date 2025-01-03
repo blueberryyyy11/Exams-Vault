@@ -1,0 +1,9 @@
+{
+  "shimmering-focus@@normal-header-bar": false,
+  "shimmering-focus@@hidden-sidebars-hidden-statusbar": false,
+  "shimmering-focus@@hide-vault-switcher-and-settings": true,
+  "shimmering-focus@@show-sidebar-header-buttons": true,
+  "shimmering-focus@@show-sidebar-toggle-buttons": true,
+  "shimmering-focus@@hide-inline-title-when-more-than-one-tab": true,
+  "shimmering-focus@@normal-tab-bar": true
+}

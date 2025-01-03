@@ -1,0 +1,13 @@
+{
+  "pdfExportSettings": {
+    "includeName": false,
+    "pageSize": "Letter",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 80
+  },
+  "showLineNumber": false,
+  "readableLineLength": true,
+  "showRibbon": true,
+  "showInlineTitle": false
+}
