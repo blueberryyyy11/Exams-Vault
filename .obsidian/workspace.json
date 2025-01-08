@@ -4,11 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "8e61ac52483ac050",
+        "id": "fb6f5f45d5050afb",
         "type": "tabs",
         "children": [
           {
-            "id": "bc959d5bcbe27c40",
+            "id": "72dba84c24f19fd8",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Матанализ 2 курс. 3.1 (1).pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "Матанализ 2 курс. 3.1 (1)"
+            }
+          },
+          {
+            "id": "b61b50a11fe739c1",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -21,7 +33,8 @@
               "title": "calculus"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -52,7 +65,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "path:Documents file:",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -140,10 +153,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Untitled.md"
+                "file": "calculus.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Untitled"
+              "title": "Outline of calculus"
             }
           },
           {
@@ -152,8 +165,8 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "icon": "SpacedRepIcon",
+              "title": "Notes Review Queue"
             }
           },
           {
@@ -162,8 +175,8 @@
             "state": {
               "type": "mermaid-toolbar-view",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "icon": "trident-custom",
+              "title": "Mermaid Toolbar"
             }
           },
           {
@@ -172,8 +185,8 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "icon": "SpacedRepIcon",
+              "title": "Notes Review Queue"
             }
           },
           {
@@ -185,9 +198,19 @@
               "icon": "SpacedRepIcon",
               "title": "Notes Review Queue"
             }
+          },
+          {
+            "id": "0c255b437bdc5cb9",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "SpacedRepIcon",
+              "title": "Notes Review Queue"
+            }
           }
         ],
-        "currentTab": 7
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -196,6 +219,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-excalidraw-plugin:Create new drawing": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -206,13 +230,30 @@
       "obsidian-spaced-repetition:Review flashcards": false,
       "math-indicator-changer:Change math indicator": false,
       "mermaid-tools:Open Mermaid Toolbar": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "pdf-plus:PDF++: Toggle auto-copy": false,
+      "pdf-plus:PDF++: Toggle auto-focus": false,
+      "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "bc959d5bcbe27c40",
+  "active": "b61b50a11fe739c1",
   "lastOpenFiles": [
-    "calculus.pdf",
+    "Вопросник.md",
     "calculus.md",
+    "1. Функциональные последовательности и ряды.md",
+    "Pasted image 20250108131452.png",
+    "Матанализ 2 курс. 3.1 (1).pdf",
+    "calculus3.pdf",
+    "d.md",
+    "xz.md",
+    "PDFs/1. Revising C++.pdf",
+    "Documents/Untitled",
+    "PDFs",
+    "Documents/images",
+    "Documents",
+    "Documents/Untitled.pdf",
+    "Documents/Untitled.md",
+    "Generated/images",
+    "Generated",
     "test.md",
     "[.md",
     "1..md",
@@ -235,21 +276,13 @@
     "Pasted Image 20250103111328_418.png",
     "14.md",
     "Pasted Image 20250103100855_863.png",
-    "Excalidraw/Drawing 2025-01-03 01.19.48.excalidraw.md",
-    "Excalidraw/Drawing 2025-01-03 01.46.06.excalidraw.md",
     "Pasted Image 20250103014612_238.png",
     "Pasted Image 20250103012021_051.png",
     "Pasted image 20250102225256.png",
     "Pasted Image 20250103005802_333.png",
     "Pasted image 20250102222300.png",
     "Pasted image 20250102204917.png",
-    "Untitled 1.md",
-    "Excalidraw",
-    "10. Iterators.md",
-    "9. Doubly linked list.md",
-    "Obsidian/Pasted image 20241228165231.png",
     "Untitled.canvas",
-    "Obsidian/Untitled.canvas",
-    "Obsidian"
+    "Obsidian/Untitled.canvas"
   ]
 }

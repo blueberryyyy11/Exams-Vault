@@ -1,9 +1,18 @@
 {
   "shimmering-focus@@normal-header-bar": false,
-  "shimmering-focus@@hidden-sidebars-hidden-statusbar": false,
+  "shimmering-focus@@hidden-sidebars-hidden-statusbar": true,
   "shimmering-focus@@hide-vault-switcher-and-settings": true,
   "shimmering-focus@@show-sidebar-header-buttons": true,
   "shimmering-focus@@show-sidebar-toggle-buttons": true,
   "shimmering-focus@@hide-inline-title-when-more-than-one-tab": true,
-  "shimmering-focus@@normal-tab-bar": true
+  "shimmering-focus@@normal-tab-bar": true,
+  "shimmering-focus@@alt-colorschemes": "colorscheme-coffee",
+  "shimmering-focus@@hide-backlinks-status-bar": true,
+  "shimmering-focus@@hide-pane-relief-focus-lock-status-bar": true,
+  "shimmering-focus@@hide-languagetool-status-bar": true,
+  "shimmering-focus@@hide-electron-window-tweaker-status-bar": true,
+  "shimmering-focus@@hide-pandoc-reference-list-status-bar": true,
+  "shimmering-focus@@hide-harper-status-bar": true,
+  "shimmering-focus@@overlaying-right-sidebar": true,
+  "shimmering-focus@@longform-tasks-different": true
 }

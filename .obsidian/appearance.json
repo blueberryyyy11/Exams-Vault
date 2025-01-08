@@ -1,9 +1,7 @@
 {
   "cssTheme": "Shimmering Focus",
-  "theme": "obsidian",
+  "theme": "moonstone",
   "baseFontSize": 17,
   "nativeMenus": false,
-  "enabledCssSnippets": [
-    "pdf-background"
-  ]
+  "enabledCssSnippets": []
 }

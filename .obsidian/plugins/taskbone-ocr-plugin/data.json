@@ -1,0 +1,161 @@
+{
+  "version": "2.3.2",
+  "baseUrl": "https://app.taskbone.com",
+  "flowConfigurations": [
+    {
+      "flow": "https://flows.taskbone.com/cbd24201-6d50-4754-ae53-1320f4f3252b.json",
+      "command": {
+        "id": "443b7df4",
+        "name": "OCR active file into annotation file",
+        "description": "process the currently selected file and write the extracted text into an annotation file."
+      },
+      "inputConfigurations": [
+        {
+          "name": "image",
+          "type": "binary/base64",
+          "sourceType": "activeFile",
+          "isRegularExpression": true,
+          "pattern": "\\.(png|jpg|jpeg|gif|pdf|PDF)$",
+          "path": ""
+        },
+        {
+          "name": "template",
+          "type": "string",
+          "sourceType": "constant",
+          "value": "---\ndate: \"{{ \"now\" | date: \"%Y-%m-%d %H:%M\" }}\"\ntags: ocr, taskbone\n---\n\n# {{ imageFileBaseName }}\n![[{{ imageFilePath }}]]\n\n{{ text }}\n",
+          "path": "taskbone/templates/OCR Template.md"
+        }
+      ],
+      "resultActions": [
+        {
+          "action": "createOrReplaceFile",
+          "sourceType": "property",
+          "property": "output",
+          "filePath": "${input['image/obsidian/filePath']}.annotations.md"
+        }
+      ]
+    },
+    {
+      "flow": "https://flows.taskbone.com/cbd24201-6d50-4754-ae53-1320f4f3252b.json",
+      "command": {
+        "id": "2acc91ec",
+        "name": "OCR image and insert at cursor position",
+        "description": "OCR image and insert text at curser position"
+      },
+      "inputConfigurations": [
+        {
+          "name": "image",
+          "type": "binary/base64",
+          "sourceType": "selectFile",
+          "isRegularExpression": true,
+          "pattern": "\\.(png|jpg|jpeg|gif|pdf|PDF)$",
+          "path": ""
+        },
+        {
+          "name": "template",
+          "type": "string",
+          "sourceType": "constant",
+          "value": "{{ text }}",
+          "path": "taskbone/templates/OCR Template.md"
+        }
+      ],
+      "resultActions": [
+        {
+          "action": "insertAtCursorPosition",
+          "sourceType": "property",
+          "property": "output",
+          "filePath": "${input['image/obsidian/filePath']}.annotations.md"
+        }
+      ]
+    },
+    {
+      "flow": "https://flows.taskbone.com/getMathTextAndFormat.json",
+      "command": {
+        "id": "1740af8a",
+        "name": "OCR Math image and insert at cursor position",
+        "description": "OCR Math image and insert text at curser position"
+      },
+      "inputConfigurations": [
+        {
+          "name": "image",
+          "type": "binary/base64",
+          "sourceType": "selectFile",
+          "isRegularExpression": true,
+          "pattern": "\\.(png|jpg|jpeg|gif)$",
+          "path": ""
+        },
+        {
+          "name": "template",
+          "type": "string",
+          "sourceType": "constant",
+          "value": "{{ text }}"
+        }
+      ],
+      "resultActions": [
+        {
+          "action": "insertAtCursorPosition",
+          "sourceType": "property",
+          "property": "output"
+        }
+      ]
+    }
+  ],
+  "flowDefinitions": [
+    {
+      "id": "cbd24201-6d50-4754-ae53-1320f4f3252b",
+      "name": "OCR and format with template",
+      "description": "OCR and format with template",
+      "url": "https://flows.taskbone.com/cbd24201-6d50-4754-ae53-1320f4f3252b.json",
+      "inputDefinitions": [
+        {
+          "name": "image",
+          "mandatory": true,
+          "description": "The image to process",
+          "type": "binary/base64"
+        },
+        {
+          "name": "template",
+          "type": "string",
+          "mandatory": true,
+          "description": "The template to format the text."
+        }
+      ],
+      "outputDefinitions": [
+        {
+          "name": "output",
+          "description": "The formatted text"
+        }
+      ],
+      "steps": [
+        {
+          "id": "getText",
+          "function": "ocr.getTextForBase64Image",
+          "inputs": {
+            "base64image": "$.input.image"
+          }
+        },
+        {
+          "id": "renderTemplate",
+          "function": "liquid",
+          "inputs": {
+            "template": "$.input.template",
+            "text": "$.getText.text",
+            "imageFileBaseName": "$.input.image/obsidian/fileBaseName",
+            "imageFileExtension": "$.input.image/obsidian/fileExtension",
+            "imageFileParentPath": "$.input.image/obsidian/fileParentPath",
+            "imageFilePath": "$.input.image/obsidian/filePath",
+            "imageMetadata": "$.input.image/obsidian/metadata",
+            "imageVaultName": "$.input.image/obsidian/vaultName",
+            "templateFileBaseName": "$.input.template/obsidian/fileBaseName",
+            "templateFileExtension": "$.input.template/obsidian/fileExtension",
+            "templateFileParentPath": "$.input.template/obsidian/fileParentPath",
+            "templateFilePath": "$.input.image/obsidian/filePath",
+            "templateMetadata": "$.input.template/obsidian/metadata",
+            "templateVaultName": "$.input.template/obsidian/vaultName"
+          }
+        }
+      ]
+    }
+  ],
+  "apiKey": "ejg3/cyFUSjVyA/cuNsbI/Y1"
+}
