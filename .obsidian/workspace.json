@@ -125,12 +125,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2. Revising OOP in C++.md",
+                "file": "3. Templates, Fixed size array, Classes vs Structs.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2. Revising OOP in C++"
+              "title": "3. Templates, Fixed size array, Classes vs Structs"
             }
           },
           {
@@ -347,10 +347,10 @@
   },
   "active": "c3cf87d6306ab69e",
   "lastOpenFiles": [
-    "3. Templates, Fixed size array, Classes vs Structs.md",
     "2. Revising OOP in C++.md",
-    "5. Virtual f-s, f overloading vs overriding.md",
     "1. Revising C++.md",
+    "3. Templates, Fixed size array, Classes vs Structs.md",
+    "5. Virtual f-s, f overloading vs overriding.md",
     "21.pdf",
     "20..pdf",
     "19.pdf",
