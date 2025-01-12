@@ -6,7 +6,7 @@
   "writeMetadata": true,
   "movePDFtoFolder": false,
   "createAssetSubfolder": true,
-  "apiEndpoint": "selfhosted",
+  "apiEndpoint": "datalab",
   "apiKey": "",
   "langs": "en",
   "forceOCR": false,

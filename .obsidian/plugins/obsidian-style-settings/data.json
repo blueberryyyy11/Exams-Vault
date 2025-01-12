@@ -14,5 +14,8 @@
   "shimmering-focus@@hide-pandoc-reference-list-status-bar": true,
   "shimmering-focus@@hide-harper-status-bar": true,
   "shimmering-focus@@overlaying-right-sidebar": true,
-  "shimmering-focus@@longform-tasks-different": true
+  "shimmering-focus@@longform-tasks-different": true,
+  "typomagical-colour@@theme-variant": "obsidian",
+  "typomagical-colour@@background-color-enable": false,
+  "typomagical-text@@callout-quote-style": true
 }

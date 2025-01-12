@@ -4,12 +4,11 @@
   "math-indicator-changer",
   "obsidian-style-settings",
   "mermaid-tools",
-  "dataview",
   "obsidian-excalidraw-plugin",
-  "obsidian-topic-linking",
   "taskbone-ocr-plugin",
   "markdown-prettifier",
   "marker-api",
   "editing-toolbar",
-  "obsidian-tasks-plugin"
+  "obsidian-tasks-plugin",
+  "code-block-plugin"
 ]
