@@ -123,12 +123,14 @@
             "id": "c3cf87d6306ab69e",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "21.pdf"
+                "file": "2. Revising OOP in C++.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "21"
+              "icon": "lucide-file",
+              "title": "2. Revising OOP in C++"
             }
           },
           {
@@ -345,6 +347,11 @@
   },
   "active": "c3cf87d6306ab69e",
   "lastOpenFiles": [
+    "3. Templates, Fixed size array, Classes vs Structs.md",
+    "2. Revising OOP in C++.md",
+    "5. Virtual f-s, f overloading vs overriding.md",
+    "1. Revising C++.md",
+    "21.pdf",
     "20..pdf",
     "19.pdf",
     "18. Set, Map, Multiset, Multimap.pdf",
@@ -356,18 +363,13 @@
     "23. Graphs, DFS, BFS.pdf",
     "24.pdf",
     "22..pdf",
-    "21.pdf",
     "16.pdf",
     "11..md",
     "9. Doubly linked list.md",
     "8. Singly linked list.md",
     "7. Vector.md",
     "6. Asymptotic analysis.md",
-    "5. Virtual f-s, f overloading vs overriding.md",
-    "1. Revising C++.md",
-    "2. Revising OOP in C++.md",
     "4. l-value, r-value, move, type-casting.md",
-    "3. Templates, Fixed size array, Classes vs Structs.md",
     "calculus.md",
     "Вопросник.md",
     "carbon.png",
