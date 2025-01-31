@@ -10,5 +10,6 @@
   "marker-api",
   "editing-toolbar",
   "obsidian-tasks-plugin",
-  "code-block-plugin"
+  "code-block-plugin",
+  "obsidian-plugin-prettier"
 ]

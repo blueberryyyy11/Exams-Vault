@@ -4,147 +4,197 @@
     "type": "split",
     "children": [
       {
-        "id": "fb6f5f45d5050afb",
+        "id": "5b537ef0e688678f",
         "type": "tabs",
         "children": [
           {
-            "id": "5658ee88a1878f9d",
+            "id": "fab5eaf24b3188d7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Revising C++.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "1. Revising C++"
-            }
-          },
-          {
-            "id": "6d5ad188b8ec9bbc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2. Revising OOP in C++.md",
+                "file": "Linux/вопросник.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2. Revising OOP in C++"
+              "title": "вопросник"
             }
           },
           {
-            "id": "5eac14c3f3409fa4",
+            "id": "559305cd67ff980a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5. Virtual f-s, f overloading vs overriding.md",
+                "file": "Untitled 1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "5. Virtual f-s, f overloading vs overriding"
+              "title": "Untitled 1"
             }
           },
           {
-            "id": "1f38764cf6b0e31c",
+            "id": "ff46aaf17b9f4c12",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5. Virtual f-s, f overloading vs overriding.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "5. Virtual f-s, f overloading vs overriding"
-            }
-          },
-          {
-            "id": "7fa220021754a7c9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "6. Asymptotic analysis.md",
+                "file": "Untitled 2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "6. Asymptotic analysis"
+              "title": "Untitled 2"
             }
           },
           {
-            "id": "9ba1541af5723abb",
+            "id": "9d707e49362454dc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "7. Vector.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "7. Vector"
-            }
-          },
-          {
-            "id": "571bda539cd41ebe",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "8. Singly linked list.md",
+                "file": "Untitled 3.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "8. Singly linked list"
+              "title": "Untitled 3"
             }
           },
           {
-            "id": "0b6c041d2c704874",
+            "id": "f13545109dcc4deb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "9. Doubly linked list.md",
+                "file": "Untitled 4.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "9. Doubly linked list"
+              "title": "Untitled 4"
             }
           },
           {
-            "id": "c3cf87d6306ab69e",
+            "id": "aaf2dff8ee5835a2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms/2. Дополнительные операции, не нарушающие примитивную (общую) рекурсивность.md",
+                "file": "Untitled 5.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2. Дополнительные операции, не нарушающие примитивную (общую) рекурсивность"
+              "title": "Untitled 5"
             }
           },
           {
-            "id": "ef0c83beb14a5c24",
+            "id": "b86b8f3b34749cc5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. Templates, Fixed size array, Classes vs Structs.md",
+                "file": "Untitled 6.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3. Templates, Fixed size array, Classes vs Structs"
+              "title": "Untitled 6"
+            }
+          },
+          {
+            "id": "1cc5e6fe0449c6b5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Untitled 7.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Untitled 7"
+            }
+          },
+          {
+            "id": "7c4e80a601ee6e7a",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Data-Structures/13. Recursion, binary_search, merge_sort, quick_sort.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "13. Recursion, binary_search, merge_sort, quick_sort"
+            }
+          },
+          {
+            "id": "deb82ae5eee1986b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Компиляторы, библиотеки, динамические и статические библиотеки, хедер-файлы.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Компиляторы, библиотеки, динамические и статические библиотеки, хедер-файлы"
+            }
+          },
+          {
+            "id": "c9f4c0954d45dba8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linux/Параллельное программирование на C.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Параллельное программирование на C"
+            }
+          },
+          {
+            "id": "adb675076fdbe296",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2025-01-21 23.05.14.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2025-01-21 23.05.14.excalidraw"
+            }
+          },
+          {
+            "id": "64f27a141f79a975",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2025-01-21 23.04.18.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2025-01-21 23.04.18.excalidraw"
+            }
+          },
+          {
+            "id": "14f13cd9703561f0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "​Основные инструменты среды программирования..md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "​Основные инструменты среды программирования."
             }
           }
         ],
@@ -167,7 +217,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -266,64 +317,14 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5. Virtual f-s, f overloading vs overriding.md"
+                "file": "Исполняемые файлы и программные библиотеки.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of 5. Virtual f-s, f overloading vs overriding"
+              "title": "Outline of Исполняемые файлы и программные библиотеки"
             }
           },
           {
-            "id": "bdd20dea238f6d9f",
-            "type": "leaf",
-            "state": {
-              "type": "review-queue-list-view",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
-            }
-          },
-          {
-            "id": "6e350fbe9cec15b6",
-            "type": "leaf",
-            "state": {
-              "type": "mermaid-toolbar-view",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
-            }
-          },
-          {
-            "id": "9d5847d7f3811cef",
-            "type": "leaf",
-            "state": {
-              "type": "review-queue-list-view",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
-            }
-          },
-          {
-            "id": "bb5b0ac6bc10354d",
-            "type": "leaf",
-            "state": {
-              "type": "review-queue-list-view",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
-            }
-          },
-          {
-            "id": "0c255b437bdc5cb9",
-            "type": "leaf",
-            "state": {
-              "type": "review-queue-list-view",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
-            }
-          },
-          {
-            "id": "d43387a4dc0da7b4",
+            "id": "52e59c83a66fcd15",
             "type": "leaf",
             "state": {
               "type": "review-queue-list-view",
@@ -331,9 +332,19 @@
               "icon": "SpacedRepIcon",
               "title": "Notes Review Queue"
             }
+          },
+          {
+            "id": "8a358c10a22eee60",
+            "type": "leaf",
+            "state": {
+              "type": "mermaid-toolbar-view",
+              "state": {},
+              "icon": "trident-custom",
+              "title": "Mermaid Toolbar"
+            }
           }
         ],
-        "currentTab": 9
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -355,53 +366,54 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "c3cf87d6306ab69e",
+  "active": "7c4e80a601ee6e7a",
   "lastOpenFiles": [
-    "3. Templates, Fixed size array, Classes vs Structs.md",
-    "2. Revising OOP in C++.md",
-    "1. Revising C++.md",
-    "5. Virtual f-s, f overloading vs overriding.md",
+    "Data-Structures/14. Trees, Binary tree traversals.pdf",
+    "Linux/Untitled.md",
+    "Untitled 8.md",
+    "Untitled 7.md",
+    "Untitled 6.md",
+    "Untitled 5.md",
+    "Untitled 4.md",
+    "Untitled 3.md",
+    "Untitled 2.md",
+    "Untitled 1.md",
+    "Linux/вопросник.md",
+    "Linux/Компиляторы, библиотеки, динамические и статические библиотеки, хедер-файлы.md",
+    "Linux/System Calls 1.md",
+    "Linux/Параллельное программирование на C.md",
+    "Linux/System calls.md",
+    "Pasted image 20250121230541.png",
+    "Excalidraw/Drawing 2025-01-21 23.05.14.excalidraw.md",
+    "Pasted Image 20250121230522_758.png",
+    "Excalidraw/Drawing 2025-01-21 23.04.18.excalidraw.md",
+    "Pasted Image 20250121230426_520.png",
+    "Pasted image 20250121230347.png",
+    "Pasted image 20250121224406.png",
+    "Linux/​Основные инструменты среды программирования..md",
+    "Excalidraw/Drawing 2025-01-21 13.30.49.excalidraw.md",
+    "Excalidraw/Drawing 2025-01-21 15.29.28.excalidraw.md",
+    "Linux/Virtual memory.md",
+    "Linux/Structured computer organization.md",
+    "Pasted Image 20250121152935_224.png",
+    "Drawing 2025-01-21 03.30.12.excalidraw.md",
+    "Drawing 2025-01-21 03.29.30.excalidraw.md",
+    "Drawing 2025-01-21 03.35.04.excalidraw.md",
+    "Drawing 2025-01-21 03.34.03.excalidraw.md",
+    "Pasted image 20250120230655.png",
+    "Pasted image 20250121141341.png",
+    "Pasted image 20250120230655 1.png",
+    "Pasted image 20250120211328.png",
+    "Excalidraw",
+    "Linux",
     "21.pdf",
     "20..pdf",
     "19.pdf",
     "18. Set, Map, Multiset, Multimap.pdf",
     "17. Red-black trees.pdf",
-    "10. Iterators.md",
-    "Pasted Image 20250112140702_765.png",
-    "Excalidraw/Drawing 2025-01-12 14.06.44.excalidraw.md",
     "14. Trees, Binary tree traversals.pdf",
     "23. Graphs, DFS, BFS.pdf",
     "24.pdf",
-    "22..pdf",
-    "16.pdf",
-    "11..md",
-    "9. Doubly linked list.md",
-    "8. Singly linked list.md",
-    "7. Vector.md",
-    "6. Asymptotic analysis.md",
-    "4. l-value, r-value, move, type-casting.md",
-    "calculus.md",
-    "Вопросник.md",
-    "carbon.png",
-    "Documents/images/Untitled.md",
-    "Excalidraw/Drawing 2025-01-08 18.21.15.excalidraw.md",
-    "Pasted image 20250108181855.png",
-    "1. Функциональные последовательности и ряды.md",
-    "Pasted image 20250108131452.png",
-    "d.md",
-    "xz.md",
-    "Documents/Untitled.md",
-    "test.md",
-    "[.md",
-    "1..md",
-    "Definitions library.md",
-    "Exams.md",
-    "Pasted image 20241230150846.png",
-    "Pasted Image 20250103111328_418.png",
-    "Pasted Image 20250103100855_863.png",
-    "Pasted Image 20250103014612_238.png",
-    "Pasted Image 20250103012021_051.png",
-    "Pasted image 20250102225256.png",
     "Untitled.canvas",
     "Obsidian/Untitled.canvas"
   ]

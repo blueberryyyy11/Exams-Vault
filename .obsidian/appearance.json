@@ -1,7 +1,8 @@
 {
   "cssTheme": "Shimmering Focus",
-  "theme": "moonstone",
+  "theme": "obsidian",
   "baseFontSize": 17,
   "nativeMenus": false,
-  "enabledCssSnippets": []
+  "enabledCssSnippets": [],
+  "showRibbon": true
 }
